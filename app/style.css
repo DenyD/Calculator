@@ -1,0 +1,75 @@
+h1{
+  margin:50px;
+  font-family:"Audiowide";
+  font-size:3em;
+  color:#FF8C00;
+}
+html, body{
+  background:#343338;;
+  color:silver;
+}
+#calc{
+  background-color:black;
+  width:280px;
+  height:440px;
+  border-radius:5px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 7px 7px 30px 1px black, inset -1px -1px 10px 0.5px silver;
+}
+#calcOut{
+  font-size:10px;
+  margin-top:10px;
+  margin-left:15px;
+  background-color:#4e5965;
+  width:250px;
+  height:80px;
+  border-radius:5px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+  box-shadow:inset 0.5px 0.5px 5px 0.2px silver;
+}
+#buttons{  
+  background-color:#151515;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 250px;
+  height: 265px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+button{  
+  font-family:"Audiowide";
+  color:white;
+  border-radius: 4px;
+  background-color: #3a3a3a;
+  margin: 4px 4px 10px 5px;
+  height: 40px;
+  width: 50px;
+}
+#steps{  
+  padding-right:10px;
+  font-size:2em
+}
+#total{
+  position: absolute;
+  height:95px;
+  margin-top:-105px;
+  margin-left:136px;
+}
+.zero{
+  width:115px;    
+}
+hr{
+  margin-top:50px;
+}
+.bt{
+  margin:20px 10px 0px 20px;
+  padding:15px 8px 5px 8px;
+  display:flex;
+  justify-content:space-between;
+}
